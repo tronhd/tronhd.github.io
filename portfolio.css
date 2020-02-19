@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://lh3.googleusercontent.com/hVRqAxakyFQyzvFvYjrzl6sKeKGIujxapUwb0jE-s8Cy6A7mUYnuY3PbilbtpVbg4ggEeg=s85);
+  height: 600px;
+  background-position: left;
+  background-repeat: no-repeat, repeat;
+}
+
+header{
+   text-align: right;
+    margin: 70px;
+    border: 1px solid #4CAF50;
+    height: 10%;
+    width: 95%;
+    font-style: italic;
+    color: #29627e;
+    background-color:#4CAF50;
+}
+
+div { text-align: right;
+    margin: 90px;
+    border: 1px solid #4CAF50;
+    position: relative;
+    height: 20%;
+    width: 90%;
+    font-style: italic;
+    color: #29627e;
+    background-color:#4CAF50;
+}
+
+
