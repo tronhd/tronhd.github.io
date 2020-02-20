@@ -4,6 +4,16 @@ body {
   background-position: left;
   background-repeat: no-repeat, repeat;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: maroon;
+  }
+}
+@media only screen and (min-width: 200px) {
+  body {
+    background-color: gold;
+  }
+}
 
 header{
    text-align: right;
@@ -17,14 +27,10 @@ header{
 }
 
 div { text-align: right;
-    margin: auto;
-    border: 1px solid #4CAF50;
-    height: 20%;
-    width: 95%;
-    float: top;
-    font-style: italic;
-    color: #29627e;
-    background-color:#4CAF50;
+   
 }
 
 
+
+   
+}
