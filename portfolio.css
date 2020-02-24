@@ -1,3 +1,9 @@
+.button:hover {
+  background-color:green;
+  border-color:blue;
+  color: white;
+}
+
 body {
   background-image: url(https://lh3.googleusercontent.com/hVRqAxakyFQyzvFvYjrzl6sKeKGIujxapUwb0jE-s8Cy6A7mUYnuY3PbilbtpVbg4ggEeg=s85);
   height: 600px;
@@ -30,7 +36,22 @@ div { text-align: right;
    
 }
 
+a{
+  position: relative;
+  animation: anima 5s 500;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
 
-
-   
+@keyframes anima {
+/*   start */
+  0%   {left: 0px; top: 0px;}
+/*   right */
+  25%  {left: 50px; top: 0px;}
+/*   down */
+  50%  {left: 50px; top: 50px;}
+/*   left */
+  75%  {left: 0px; top: 50px;}
+/*   up */
+  100% {left: 0px; top: 0px;}
 }
